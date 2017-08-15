@@ -8,7 +8,7 @@ jobs:
 
             - run:
                 name: echo build
-                command: echo "I am building"
+                command: echo "I am building."
 
     deploy:
         machine: true
@@ -16,7 +16,7 @@ jobs:
         steps:
             - deploy:
                 name: echo deploy
-                command: echo "I am deploying"
+                command: echo "I am deploying."
 
 workflows:
     version: 2
